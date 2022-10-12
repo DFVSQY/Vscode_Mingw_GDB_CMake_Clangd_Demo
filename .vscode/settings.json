@@ -1,0 +1,6 @@
+{
+	"cmake.generator": "MinGW Makefiles",
+	"clangd.arguments": [
+		"--query-driver=F:\\msys64\\mingw64\\bin\\gcc.exe"
+	]
+}
