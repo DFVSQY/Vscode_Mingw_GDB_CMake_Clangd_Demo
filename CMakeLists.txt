@@ -14,5 +14,11 @@ aux_source_directory(src DIR_SRCS)
 # 添加头文件目录
 include_directories(includes)
 
+# 如果使用mingw工具链
+# 编译时打开所有警告
+if(MINGW)
+	add_compile_options(-Wall)
+endif()
+
 # 指定生成目标
 add_executable(main ${DIR_SRCS})
