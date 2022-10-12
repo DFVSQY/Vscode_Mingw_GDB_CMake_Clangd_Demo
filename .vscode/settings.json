@@ -5,5 +5,9 @@
 	],
 	"[c]": {
 		"editor.links": false
-	}
+	},
+	"C_Cpp.intelliSenseEngine": "Disabled",
+	"C_Cpp.autocomplete": "Disabled",
+	"C_Cpp.errorSquiggles": "Disabled",
+	"C_Cpp.codeAnalysis.runAutomatically": false
 }
