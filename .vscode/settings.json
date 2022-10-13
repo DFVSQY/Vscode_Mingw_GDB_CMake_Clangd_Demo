@@ -1,7 +1,8 @@
 {
 	"cmake.generator": "MinGW Makefiles",
 	"clangd.arguments": [
-		"--query-driver=F:\\msys64\\mingw64\\bin\\gcc.exe"
+		"--query-driver=F:\\msys64\\mingw64\\bin\\gcc.exe",
+		"--clang-tidy"
 	],
 	"[c]": {
 		"editor.links": false
