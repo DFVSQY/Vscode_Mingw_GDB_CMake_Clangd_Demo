@@ -22,3 +22,5 @@ endif()
 
 # 指定生成目标
 add_executable(main ${DIR_SRCS})
+
+set_property(TARGET main PROPERTY C_STANDARD 11)
